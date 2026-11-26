@@ -1,0 +1,29 @@
+# Dependencies & build outputs
+node_modules/
+dist/
+public/photos/
+src/data/team.generated.json
+
+# Raw / backup spreadsheets & temporary archives (never commit raw Drive links)
+*.original.xlsx
+*.sanitized.xlsx
+imagens/*.zip
+imagens/Gemini_Generated_Image_*.png
+imagens/foto perfil - CCST-viviane.algarve CCST-viviane.algarve.jpg
+
+# Local agent, QA & IDE artifacts
+.impeccable/
+.superpowers/
+.playwright-mcp/
+docs/superpowers/
+PRODUCT.md
+DESIGN.md
+AGENTS.md
+CLAUDE.md
+
+# Environment & OS files
+*.local
+.env
+.env.*
+.DS_Store
+Thumbs.db
